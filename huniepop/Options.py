@@ -29,10 +29,11 @@ class starting_girls(Range):
     default = 3
 
 class shop_items(Range):
-    """number of archipelago items in the shop Note if there is not enough locations for items it will add shop locations to satisfy the locations needed, MAX is 494 so total locations isn't over 1000"""
+    #"""number of archipelago items in the shop Note if there is not enough locations for items it will add shop locations to satisfy the locations needed, MAX is 494 so total locations isn't over 1000"""
+    """DISABLED DOES NOTHING AT THE MOMENT"""
     display_name = "shop items"
     range_start = 0
-    range_end = 494
+    range_end = 0
     default = 0
 
 
